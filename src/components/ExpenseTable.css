@@ -1,0 +1,21 @@
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  table{
+    width: 55%;
+  }
+  .dataHeader{
+    background-color: rgb(38, 41, 41);
+    color: white;
+  }
+  .deleteBTN{
+    background-color: #ee0b0b;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+  }
