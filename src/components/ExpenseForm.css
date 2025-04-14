@@ -1,14 +1,16 @@
 .Eform{
     display: flex;
-    border: 1px solid rgb(190, 184, 184);
+    border: 1px solid rgb(34, 31, 207);
     flex-direction: column;
     margin: 10px;
     padding: 15px;
     width: 50%;
+    background-color: #A0C878;
+    border-radius: 10px;
   }
   .subBTN{
-    background-color: hsl(120, 60%, 53%);
-    color: #fff;
+    background-color: #143D60;
+    color: #f3f1f1;
     border-radius: 5px;
     height: 3em;
     width: 50%;
@@ -19,5 +21,5 @@
   .Eform input{
     margin: 5px;
     height: 2rem;
-    border: 1px solid rgb(190, 184, 184);
+    border: 1px solid rgb(32, 46, 230);
   }
