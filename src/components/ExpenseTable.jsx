@@ -1,6 +1,7 @@
 import './ExpenseTable.css'
 function ExpenseTable({ expenses, onDeleteExpense  }) {
   console.log(expenses);
+  
  
     return (
       <>
@@ -11,7 +12,9 @@ function ExpenseTable({ expenses, onDeleteExpense  }) {
               <th>Expense Name</th>
               <th>Amount</th>
               <th>Category</th>
+              <th>Description</th>
               <th>Action</th>
+              
             </tr>
           </thead>
           <tbody>
@@ -20,6 +23,10 @@ function ExpenseTable({ expenses, onDeleteExpense  }) {
                 <td>{expense.name}</td>
                 <td>{expense.amount}</td>
                 <td>{expense.category}</td>
+                <td>{expense.description}</td>
+                
+                
+
                 <td>
                 <button onClick={() => onDeleteExpense(expense.id)} className='deleteBTN'>Delete</button>
                 </td>

@@ -8,6 +8,8 @@ import './App.css'
 function App() {
   const [expenses, setExpenses] = useState([]);
   const [search, setSearch] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
 
   const handleAddExpense = (expense) => {
     setExpenses((prev) => [...prev, expense]);
